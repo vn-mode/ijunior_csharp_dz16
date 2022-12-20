@@ -6,15 +6,17 @@ namespace vn_mode_csharp_dz_16
     {
         static void Main(string[] args)
         {
-            int N = 1;
+            int sourceNumber = 1;
             int counter = 0;
+            int minNumber = 100;
+            int maxNumber = 1000;
 
-            for(int i = 100; i < 1000; i++)
+            for(int i = minNumber; i < maxNumber; i++)
             {
                 counter++;
             }
 
-            Console.WriteLine($"Количество трехзначных натуральных чисел, которые кратны {N}  = {counter}");
+            Console.WriteLine($"Количество трехзначных натуральных чисел, которые кратны {sourceNumber}  = {counter}");
 
         }
     }
