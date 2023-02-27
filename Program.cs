@@ -6,29 +6,25 @@ namespace vn_mode_csharp_dz_16
     {
         static void Main(string[] args)
         {
-            int minSourceNumber = 1;
-            int maxSourceNumber = 27;
-            int sourceNumber;
-            int counter = 0;
-            int minNumber = 100;
-            int maxNumber = 1000;
-            int tempNumber;
+            Random randomForNumberN = new Random();
 
-            Random randomSourceNumber = new Random();
-            sourceNumber = randomSourceNumber.Next(minSourceNumber, (maxSourceNumber + 1));
-            tempNumber = sourceNumber;
+            int loverGivenRange = 1;
+            int hiverGivenRange = 27;
+            int numberN = randomForNumberN.Next(loverGivenRange, (hiverGivenRange + 1));
+            int counterNumbersMultiplesN = 0;
+            int lowerRangeLimit = 100;
+            int upperRangeLimit = 999;
 
-            for (int i = tempNumber; i < maxNumber; i++)
+            Console.WriteLine("Рандомное число: " + numberN);
+
+            for (int i = 0; i <= upperRangeLimit; i += numberN)
             {
-                if (tempNumber >= minNumber && tempNumber < maxNumber )
+                if (i >= lowerRangeLimit)
                 {
-                    counter++;
+                    counterNumbersMultiplesN++;
                 }
-                tempNumber++;
             }
-
-            Console.WriteLine($"Количество трехзначных натуральных чисел, которые кратны {sourceNumber}  = {counter}");
-
+            Console.WriteLine("Количество чисел кратное числу " + numberN + "равно " + counterNumbersMultiplesN);
         }
     }
 }
