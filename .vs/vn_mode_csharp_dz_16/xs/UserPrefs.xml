@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{91923190-CB2F-46C5-A4CC-0CEB5D2D9C3D}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.vn__mode__csharp__dz__16 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="35" Column="1" />
+      <File FileName="Program.cs" Line="27" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="vn_mode_csharp_dz_16" expanded="True">
-            <Node name="vn_mode_csharp_dz_16" expanded="True" />
+            <Node name="vn_mode_csharp_dz_16" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -20,4 +20,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.vn__mode__csharp__dz__16 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

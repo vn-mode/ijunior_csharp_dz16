@@ -24,6 +24,7 @@ namespace vn_mode_csharp_dz_16
                     counterNumbersMultiplesN++;
                 }
             }
+
             Console.WriteLine("Количество чисел кратное числу " + numberN + "равно " + counterNumbersMultiplesN);
         }
     }
